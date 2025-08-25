@@ -5,7 +5,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hey Guys, Welcome to Node_JS App deployed with Docker on AWS EC2!!\n');
+  res.end('I have successfully deployed a Node_JS App with Docker on AWS EC2!!\n');
 });
 
 server.listen(port, () => {
